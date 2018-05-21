@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: TextInputSuper renders correctly 1`] = `
+<TextInput
+  onBlur={[Function]}
+  onFocus={[Function]}
+  style={
+    Array [
+      null,
+      undefined,
+    ]
+  }
+  underlineColorAndroid="transparent"
+/>
+`;

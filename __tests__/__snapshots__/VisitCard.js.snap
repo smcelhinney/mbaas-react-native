@@ -1,0 +1,226 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: VisitCard renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#FFFFFF",
+      "borderRadius": 5,
+      "height": 300,
+      "marginRight": 15,
+      "paddingBottom": 10,
+      "shadowColor": "#000000",
+      "shadowOpacity": 0.1,
+      "shadowRadius": 5,
+      "width": 690,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "borderBottomColor": "#EFEFF4",
+        "borderBottomWidth": 1,
+        "height": 60,
+        "justifyContent": "center",
+        "paddingHorizontal": 20,
+      }
+    }
+  >
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      disabled={false}
+      ellipsizeMode="tail"
+      style={
+        Object {
+          "color": "#8e8e93",
+          "fontFamily": "Helvetica Neue",
+          "fontSize": 11,
+          "fontWeight": "bold",
+          "marginBottom": 7,
+        }
+      }
+    >
+      INVALID DATE
+       
+    </Text>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      disabled={false}
+      ellipsizeMode="tail"
+      style={
+        Object {
+          "color": "#82C5E6",
+          "fontFamily": "Helvetica Neue",
+          "fontSize": 16,
+        }
+      }
+    >
+      Location not provided
+       
+    </Text>
+  </View>
+  <View
+    style={
+      Object {
+        "flex": 1,
+        "justifyContent": "flex-start",
+        "padding": 15,
+      }
+    }
+  >
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      disabled={false}
+      ellipsizeMode="tail"
+      style={
+        Object {
+          "color": "#8e8e93",
+          "fontFamily": "Helvetica Neue",
+          "fontSize": 11,
+          "fontWeight": "bold",
+          "marginBottom": 7,
+        }
+      }
+    >
+      INFECTIONS
+    </Text>
+    <View
+      style={
+        Object {
+          "borderColor": "#4395BF",
+          "borderLeftWidth": 4,
+          "marginBottom": 15,
+          "marginTop": 0,
+          "paddingLeft": 10,
+        }
+      }
+    >
+      <View>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          disabled={false}
+          ellipsizeMode="tail"
+          key="001"
+          style={
+            Array [
+              Object {
+                "color": "#82C5E6",
+                "fontFamily": "Helvetica Neue",
+                "fontSize": 16,
+              },
+              Object {
+                "color": "#606060",
+                "paddingVertical": 3,
+              },
+            ]
+          }
+        >
+          test reference item 1
+        </Text>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          disabled={false}
+          ellipsizeMode="tail"
+          key="002"
+          style={
+            Array [
+              Object {
+                "color": "#82C5E6",
+                "fontFamily": "Helvetica Neue",
+                "fontSize": 16,
+              },
+              Object {
+                "color": "#606060",
+                "paddingVertical": 3,
+              },
+            ]
+          }
+        >
+          test reference item 2
+        </Text>
+      </View>
+    </View>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      disabled={false}
+      ellipsizeMode="tail"
+      style={
+        Object {
+          "color": "#8e8e93",
+          "fontFamily": "Helvetica Neue",
+          "fontSize": 11,
+          "fontWeight": "bold",
+          "marginBottom": 7,
+        }
+      }
+    >
+      ANTIBIOTICS
+    </Text>
+    <View
+      style={
+        Object {
+          "borderColor": "#79C8A6",
+          "borderLeftWidth": 4,
+          "marginBottom": 15,
+          "marginTop": 0,
+          "paddingLeft": 10,
+        }
+      }
+    >
+      <View>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          disabled={false}
+          ellipsizeMode="tail"
+          key="001"
+          style={
+            Array [
+              Object {
+                "color": "#82C5E6",
+                "fontFamily": "Helvetica Neue",
+                "fontSize": 16,
+              },
+              Object {
+                "color": "#606060",
+                "paddingVertical": 3,
+              },
+            ]
+          }
+        >
+          test reference item 1
+        </Text>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          disabled={false}
+          ellipsizeMode="tail"
+          key="002"
+          style={
+            Array [
+              Object {
+                "color": "#82C5E6",
+                "fontFamily": "Helvetica Neue",
+                "fontSize": 16,
+              },
+              Object {
+                "color": "#606060",
+                "paddingVertical": 3,
+              },
+            ]
+          }
+        >
+          test reference item 2
+        </Text>
+      </View>
+    </View>
+  </View>
+</View>
+`;

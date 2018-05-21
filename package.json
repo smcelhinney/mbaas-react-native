@@ -1,0 +1,49 @@
+{
+  "name": "fibro-note",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest --coverage",
+    "compile": "tsc -p ./tsconfig.json",
+    "postinstall": "./scripts/postinstall.sh"
+  },
+  "dependencies": {
+    "apollo-client": "^1.2.2",
+    "async": "^2.4.1",
+    "date-fns": "^1.28.5",
+    "graphql": "^0.9.6",
+    "lodash": "^4.17.4",
+    "native-base": "^2.1.3",
+    "react": "16.0.0-beta.5",
+    "react-apollo": "^1.2.0",
+    "react-native": "0.49.3",
+    "react-native-config": "^0.11.5",
+    "react-native-dotenv": "^0.1.1",
+    "react-native-event-listeners": "^1.0.3",
+    "react-native-keyboard-aware-scroll-view": "^0.3.0",
+    "react-native-mixpanel": "0.0.15",
+    "react-native-navigation": "^1.1.235"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.64",
+    "@types/react": "16.0.13",
+    "@types/react-native": "0.49.2",
+    "babel-jest": "20.0.0",
+    "babel-preset-react-native": "1.9.1",
+    "enzyme": "^3.0.0",
+    "enzyme-adapter-react-16": "^1.0.0",
+    "enzyme-to-json": "^3.0.1",
+    "jest": "20.0.0",
+    "react-dom": "^16.0.0",
+    "react-test-renderer": "^16.0.0-alpha.13",
+    "tslint": "^5.2.0",
+    "typescript": "^2.3.4"
+  },
+  "jest": {
+    "preset": "react-native",
+    "setupFiles": [
+      "./jest_setup.js"
+    ]
+  }
+}

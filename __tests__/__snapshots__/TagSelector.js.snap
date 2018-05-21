@@ -1,0 +1,110 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: TagSelector TagSelector renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#FFFFFF",
+      "borderColor": "#CCCCCC",
+      "borderRadius": 5,
+      "flexDirection": "row",
+      "margin": 10,
+      "shadowColor": "black",
+      "shadowOpacity": 0.1,
+      "shadowRadius": 10,
+    }
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "borderBottomLeftRadius": 5,
+          "borderTopLeftRadius": 5,
+          "paddingTop": 10,
+          "width": 8,
+        },
+        Object {
+          "backgroundColor": undefined,
+        },
+      ]
+    }
+  />
+  <View
+    style={
+      Object {
+        "flex": 1,
+        "paddingHorizontal": 10,
+        "paddingVertical": 15,
+      }
+    }
+  >
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      disabled={false}
+      ellipsizeMode="tail"
+      style={
+        Object {
+          "color": "#8e8e93",
+          "fontFamily": "Helvetica Neue",
+          "fontSize": 11,
+          "fontWeight": "bold",
+          "marginBottom": 7,
+        }
+      }
+    >
+      undefined NAME
+    </Text>
+    <View
+      style={
+        Object {
+          "alignItems": "flex-start",
+          "flexDirection": "row",
+          "flexWrap": "wrap",
+        }
+      }
+    >
+      <TouchableOpacity
+        activeOpacity={0.2}
+        key="01"
+        onPress={[Function]}
+        style={
+          Array [
+            Object {
+              "alignItems": "flex-start",
+              "backgroundColor": "#EDF2FF",
+              "borderRadius": 8,
+              "justifyContent": "center",
+              "marginBottom": 3,
+              "marginRight": 3,
+              "paddingHorizontal": 10,
+              "paddingVertical": 7,
+            },
+            null,
+          ]
+        }
+      >
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          disabled={false}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {
+                "color": "#555555",
+                "fontSize": 14,
+              },
+              null,
+            ]
+          }
+        >
+          TEST_TAG
+        </Text>
+      </TouchableOpacity>
+    </View>
+  </View>
+</View>
+`;
