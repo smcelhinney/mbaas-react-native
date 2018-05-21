@@ -47,6 +47,7 @@ const ApolloProviderWrapper = (WrappedComponent: any) => {
       return (
         <View style={{ flex: 1 }}>
           <Modal
+            onRequestClose={() => {}}
             animationType="fade"
             transparent={true}
             visible={!this.state.isConnected}

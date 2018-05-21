@@ -139,6 +139,7 @@ export default class SuperPicker extends Component<any, any> {
           </TouchableOpacity>
         </View>
         <Modal
+          onRequestClose={() => {}}
           animationType="slide"
           transparent={true}
           visible={this.state.isVisible}
@@ -221,6 +222,7 @@ export default class SuperPicker extends Component<any, any> {
           </TouchableOpacity>
         </View>
         <Modal
+          onRequestClose={() => {}}
           animationType="slide"
           transparent={true}
           visible={this.state.isVisible}
