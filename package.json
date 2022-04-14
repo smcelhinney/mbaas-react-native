@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "apollo-client": "^1.2.2",
-    "async": "^2.4.1",
+    "async": "^3.2.2",
     "date-fns": "^1.28.5",
     "graphql": "^0.9.6",
     "lodash": "^4.17.4",
